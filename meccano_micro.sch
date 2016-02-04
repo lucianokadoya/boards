@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.0">
+<eagle version="7.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -10366,10 +10366,10 @@ naming: grid - package width</description>
 <part name="3V" library="supply1" deviceset="VCC" device="" value="3V"/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="VCC-S1" library="wirepad" deviceset="1,6/0,8" device=""/>
-<part name="D01" library="wirepad" deviceset="1,6/0,8" device=""/>
+<part name="S1" library="wirepad" deviceset="1,6/0,8" device=""/>
 <part name="GND-S1" library="wirepad" deviceset="1,6/0,8" device=""/>
 <part name="VCC-S2" library="wirepad" deviceset="1,6/0,8" device=""/>
-<part name="D02" library="wirepad" deviceset="1,6/0,8" device=""/>
+<part name="S2" library="wirepad" deviceset="1,6/0,8" device=""/>
 <part name="GND-S2" library="wirepad" deviceset="1,6/0,8" device=""/>
 <part name="5V2" library="supply1" deviceset="VCC" device="" value="5V"/>
 <part name="5V3" library="supply1" deviceset="VCC" device="" value="5V"/>
@@ -10377,7 +10377,7 @@ naming: grid - package width</description>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="3V1" library="supply1" deviceset="VCC" device="" value="3V"/>
 <part name="3V2" library="supply1" deviceset="VCC" device="" value="3V"/>
-<part name="C3" library="capacitor-wima" deviceset="C" device="2.5/4" value="10uF"/>
+<part name="C3" library="capacitor-wima" deviceset="C" device="2.5/4" value="0.1uF"/>
 <part name="FTDI-GND" library="wirepad" deviceset="1,6/0,8" device=""/>
 <part name="FTDI-CTS" library="wirepad" deviceset="1,6/0,8" device=""/>
 <part name="FTDI-VCC" library="wirepad" deviceset="1,6/0,8" device=""/>
@@ -10397,12 +10397,12 @@ naming: grid - package width</description>
 <part name="HIGH" library="con-lstb" deviceset="MA06-1" device=""/>
 <part name="LOW" library="con-lstb" deviceset="MA06-1" device=""/>
 <part name="VCC-S3" library="wirepad" deviceset="1,6/0,8" device=""/>
-<part name="D03" library="wirepad" deviceset="1,6/0,8" device=""/>
+<part name="S3" library="wirepad" deviceset="1,6/0,8" device=""/>
 <part name="GND-S3" library="wirepad" deviceset="1,6/0,8" device=""/>
 <part name="5V5" library="supply1" deviceset="VCC" device="" value="5V"/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="VCC-S4" library="wirepad" deviceset="1,6/0,8" device=""/>
-<part name="D04" library="wirepad" deviceset="1,6/0,8" device=""/>
+<part name="S4" library="wirepad" deviceset="1,6/0,8" device=""/>
 <part name="GND-S4" library="wirepad" deviceset="1,6/0,8" device=""/>
 <part name="5V6" library="supply1" deviceset="VCC" device="" value="5V"/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
@@ -10439,10 +10439,10 @@ naming: grid - package width</description>
 <instance part="3V" gate="VCC" x="55.88" y="50.8" rot="R270"/>
 <instance part="GND3" gate="1" x="88.9" y="27.94"/>
 <instance part="VCC-S1" gate="P" x="2.54" y="12.7" rot="R270"/>
-<instance part="D01" gate="P" x="10.16" y="12.7" rot="R270"/>
+<instance part="S1" gate="P" x="10.16" y="12.7" rot="R270"/>
 <instance part="GND-S1" gate="P" x="17.78" y="12.7" rot="R270"/>
 <instance part="VCC-S2" gate="P" x="40.64" y="12.7" rot="R270"/>
-<instance part="D02" gate="P" x="48.26" y="12.7" rot="R270"/>
+<instance part="S2" gate="P" x="48.26" y="12.7" rot="R270"/>
 <instance part="GND-S2" gate="P" x="55.88" y="12.7" rot="R270"/>
 <instance part="5V2" gate="VCC" x="2.54" y="0" rot="R180"/>
 <instance part="5V3" gate="VCC" x="40.64" y="0" rot="R180"/>
@@ -10470,12 +10470,12 @@ naming: grid - package width</description>
 <instance part="HIGH" gate="1" x="91.44" y="-38.1" rot="R180"/>
 <instance part="LOW" gate="1" x="137.16" y="-38.1" rot="MR180"/>
 <instance part="VCC-S3" gate="P" x="187.96" y="15.24" rot="R270"/>
-<instance part="D03" gate="P" x="195.58" y="15.24" rot="R270"/>
+<instance part="S3" gate="P" x="195.58" y="15.24" rot="R270"/>
 <instance part="GND-S3" gate="P" x="203.2" y="15.24" rot="R270"/>
 <instance part="5V5" gate="VCC" x="187.96" y="2.54" rot="R180"/>
 <instance part="GND10" gate="1" x="203.2" y="5.08"/>
 <instance part="VCC-S4" gate="P" x="226.06" y="15.24" rot="R270"/>
-<instance part="D04" gate="P" x="233.68" y="15.24" rot="R270"/>
+<instance part="S4" gate="P" x="233.68" y="15.24" rot="R270"/>
 <instance part="GND-S4" gate="P" x="241.3" y="15.24" rot="R270"/>
 <instance part="5V6" gate="VCC" x="226.06" y="2.54" rot="R180"/>
 <instance part="GND11" gate="1" x="241.3" y="5.08"/>
@@ -10821,7 +10821,7 @@ naming: grid - package width</description>
 </net>
 <net name="HV1" class="0">
 <segment>
-<pinref part="D01" gate="P" pin="P"/>
+<pinref part="S1" gate="P" pin="P"/>
 <wire x1="10.16" y1="10.16" x2="10.16" y2="-30.48" width="0.1524" layer="91"/>
 <wire x1="10.16" y1="-30.48" x2="83.82" y2="-30.48" width="0.1524" layer="91"/>
 <junction x="10.16" y="10.16"/>
@@ -10849,7 +10849,7 @@ naming: grid - package width</description>
 </net>
 <net name="HV2" class="0">
 <segment>
-<pinref part="D02" gate="P" pin="P"/>
+<pinref part="S2" gate="P" pin="P"/>
 <wire x1="48.26" y1="10.16" x2="48.26" y2="-33.02" width="0.1524" layer="91"/>
 <junction x="48.26" y="10.16"/>
 <pinref part="HIGH" gate="1" pin="2"/>
@@ -10890,7 +10890,7 @@ naming: grid - package width</description>
 </net>
 <net name="HV3" class="0">
 <segment>
-<pinref part="D03" gate="P" pin="P"/>
+<pinref part="S3" gate="P" pin="P"/>
 <wire x1="195.58" y1="12.7" x2="195.58" y2="-53.34" width="0.1524" layer="91"/>
 <junction x="195.58" y="12.7"/>
 <wire x1="195.58" y1="-53.34" x2="71.12" y2="-53.34" width="0.1524" layer="91"/>
@@ -10903,7 +10903,7 @@ naming: grid - package width</description>
 </net>
 <net name="HV4" class="0">
 <segment>
-<pinref part="D04" gate="P" pin="P"/>
+<pinref part="S4" gate="P" pin="P"/>
 <wire x1="233.68" y1="12.7" x2="233.68" y2="-55.88" width="0.1524" layer="91"/>
 <junction x="233.68" y="12.7"/>
 <wire x1="233.68" y1="-55.88" x2="73.66" y2="-55.88" width="0.1524" layer="91"/>
