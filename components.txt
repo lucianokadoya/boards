@@ -1,0 +1,13 @@
+1 x ESP8266 Serial WiFi Module (ESP-07/ESP-12)
+1 x SparkFun Logic Level Converter - Bi-Directional (https://www.sparkfun.com/products/12009 or https://www.robocore.net/modules.php?name=GR_LojaVirtual&prod=522)
+1 x IC LM1117MPX-3.3V STO-223
+4 x Electrolytic Capacitor 47uF/16V
+2 x Electrolytic Capacitor 470uF/16V
+1 x Ceramic Capacitor Disc 100Kpf/50V (104/100K/100nF/0.1uF) 
+1 x Resistor 1/4 Watt CR25 5% - 0 Ohm
+1 x Resistor 1/4 Watt CR25 5% - 1K Ohm
+1 x Jumper 2 Pins to PCI 
+1 x JACK-PLUG0 (JACK-PLUG)
+1 x Mini Pushbutton Switch NC
+1 x Female Headers
+1 x Male Headers
