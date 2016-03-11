@@ -10376,7 +10376,6 @@ naming: grid - package width</description>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="3V1" library="supply1" deviceset="VCC" device="" value="3V"/>
-<part name="3V2" library="supply1" deviceset="VCC" device="" value="3V"/>
 <part name="C3" library="capacitor-wima" deviceset="C" device="2.5/4" value="0.1uF"/>
 <part name="FTDI-GND" library="wirepad" deviceset="1,6/0,8" device=""/>
 <part name="FTDI-CTS" library="wirepad" deviceset="1,6/0,8" device=""/>
@@ -10418,6 +10417,7 @@ naming: grid - package width</description>
 <part name="3V6" library="supply1" deviceset="VCC" device="" value="3V"/>
 <part name="5V7" library="supply1" deviceset="VCC" device="" value="5V"/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
+<part name="GND13" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -10449,7 +10449,6 @@ naming: grid - package width</description>
 <instance part="GND4" gate="1" x="17.78" y="2.54"/>
 <instance part="GND5" gate="1" x="55.88" y="2.54"/>
 <instance part="3V1" gate="VCC" x="144.78" y="35.56" rot="R270"/>
-<instance part="3V2" gate="VCC" x="68.58" y="55.88"/>
 <instance part="C3" gate="G$1" x="111.76" y="12.7" rot="R90"/>
 <instance part="FTDI-GND" gate="P" x="96.52" y="96.52" rot="R270"/>
 <instance part="FTDI-CTS" gate="P" x="104.14" y="96.52" rot="R270"/>
@@ -10491,6 +10490,7 @@ naming: grid - package width</description>
 <instance part="3V6" gate="VCC" x="172.72" y="71.12"/>
 <instance part="5V7" gate="VCC" x="177.8" y="73.66"/>
 <instance part="GND12" gate="1" x="182.626" y="76.2" rot="R180"/>
+<instance part="GND13" gate="1" x="68.58" y="55.88" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -10639,6 +10639,12 @@ naming: grid - package width</description>
 <junction x="198.12" y="73.66"/>
 <label x="210.82" y="73.66" size="1.778" layer="95"/>
 </segment>
+<segment>
+<wire x1="68.58" y1="50.8" x2="68.58" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="JP1" gate="A" pin="2"/>
+<junction x="68.58" y="50.8"/>
+<pinref part="GND13" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="5V" class="0">
 <segment>
@@ -10742,12 +10748,6 @@ naming: grid - package width</description>
 <wire x1="134.62" y1="35.56" x2="142.24" y2="35.56" width="0.1524" layer="91"/>
 <junction x="116.84" y="12.7"/>
 <junction x="142.24" y="35.56"/>
-</segment>
-<segment>
-<pinref part="3V2" gate="VCC" pin="VCC"/>
-<wire x1="68.58" y1="50.8" x2="68.58" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="A" pin="2"/>
-<junction x="68.58" y="50.8"/>
 </segment>
 <segment>
 <wire x1="144.78" y1="-35.56" x2="165.1" y2="-35.56" width="0.1524" layer="91"/>
